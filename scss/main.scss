@@ -1,0 +1,24 @@
+/* //////// RESETEO ////// */
+
+@import "base/reset";
+@import "base/tipografias";
+@import "themes/variables";
+
+/* ///////// LAYOUT ///////// */
+
+@import "layout/header";
+@import "layout/navegacion";
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/forms";
+
+/* ///// PAGINAS //// */
+
+@import "pages/inicio"; 
+@import "pages/servicios";
+@import "pages/galeria";
+@import "pages/nosotros";
+@import "pages/contacto";
+
+
+

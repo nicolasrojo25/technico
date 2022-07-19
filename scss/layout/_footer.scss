@@ -1,0 +1,107 @@
+
+/* ///////////////////// FOOTER /////////////////////////////
+ */
+ 
+ @media (max-width: 365px) {
+  .pie {
+    list-style-type: none;
+    padding: 2rem;
+    background-color: $color-primario  ;
+
+    &__titulo {
+      margin: 0;
+      font-size: 4rem;
+      color: white;
+      font-weight: bolder;
+      height: 100px;
+      width: 100%;
+      padding: 0.5rem;
+      text-align: center;
+
+    }
+
+    &__sub {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem;
+      font-size: 1.5rem;
+
+    }
+
+    &__contacto {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.2rem;
+      
+     span { margin-right: 1.5rem;
+
+      }
+    }
+
+
+  }
+
+
+}
+
+
+
+
+
+
+@media(min-width:800px) {
+
+  .pie {
+    list-style-type: none;
+    background-color:  $color-primario;
+
+    &__titulo {
+      font-size: 4rem;
+      color: white;
+      font-weight: bolder;
+      height: 100px;
+      width: 100%;
+      padding: 2rem;
+      display: flex;
+      justify-content: end;
+  
+    }
+
+    &__sub {
+      display: flex;
+      justify-content: end;
+      text-align: end;
+      font-size: 2rem;
+      align-items: center;
+      padding: 2rem;
+  
+    }
+
+
+  &__contacto {
+    display: flex;
+    flex-flow: row wrap;
+    span {
+      display: flex;
+      margin: 0;
+      font-size: 1.5rem;
+      align-items: center;
+      justify-content: end;
+      color: white;
+      padding: 1rem;
+    }
+
+    i {
+      font-size: 2rem;
+      color: white;
+      padding: 1rem;
+    }
+  }
+
+
+  }
+
+}

@@ -1,0 +1,40 @@
+.servicios h1 {
+  font-size: 3rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.servicios__caja {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 1rem;
+  justify-content: center;
+}
+.servicios img {
+  max-width: 100%;
+  padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .servicios h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: center;
+  }
+  .servicios__caja {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem;
+    justify-content: space-evenly;
+  }
+  .servicios img {
+    max-width: 50%;
+    padding: 1rem;
+  }
+}
+
+/*# sourceMappingURL=servicios.css.map */

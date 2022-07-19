@@ -1,0 +1,114 @@
+.informatico {
+  padding: 1rem;
+}
+.informatico h1 {
+  font-size: 3.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.informatico__caja {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 1rem;
+  align-content: center;
+  text-align: center;
+}
+.informatico__img {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  text-align: center;
+  max-width: 100%;
+}
+
+.experiencia h2 {
+  font-size: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #013dff;
+  color: #ffffff;
+}
+.experiencia__caja {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1rem;
+  justify-content: center;
+  align-content: center;
+}
+.experiencia__img {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 70%;
+}
+
+@media (min-width: 1024px) {
+  .informatico {
+    padding: 1rem;
+  }
+  .informatico h1 {
+    font-size: 3.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: start;
+    height: 100%;
+  }
+  .informatico__caja {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem;
+    align-content: center;
+    text-align: center;
+  }
+  .informatico__img {
+    max-width: 33%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .experiencia h2 {
+    font-size: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: start;
+    background-color: #013dff;
+    color: #ffffff;
+  }
+  .experiencia__caja {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+  .experiencia__user {
+    padding: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    max-width: 50%;
+  }
+  .experiencia__user img {
+    max-width: 250px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

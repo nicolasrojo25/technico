@@ -233,6 +233,41 @@
   }
 }
 /* ///// PAGINAS //// */
+/* ------------- contacto --------------- */
+@media (min-width: 360px) and (max-width: 799px) {
+  .comunicate h1 {
+    font-size: 3rem;
+    padding: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .comunicate__datos {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .comunicate h1 {
+    font-size: 3rem;
+    padding: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .comunicate__datos {
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
 @media (min-width: 360px) {
   .informatico {
     padding: 1rem;
@@ -408,7 +443,7 @@
     transform: scale(1.2);
     box-shadow: 0px 9px 28px 3px rgba(0, 0, 0, 0.9);
   }
-  .galeria video {
+  .galeria__video {
     max-width: 100%;
     object-fit: cover;
     transition: 0.5s;
@@ -419,7 +454,7 @@
     align-items: center;
     height: 380px;
   }
-  .galeria video:hover {
+  .galeria__video:hover {
     transform: scale(1.2);
     box-shadow: 0px 9px 28px 3px rgba(0, 0, 0, 0.9);
   }
@@ -590,39 +625,6 @@
     font-size: 1.5rem;
     text-align: justify;
     padding: 1rem 2.25rem 2rem 2.25rem;
-  }
-}
-/* ------------- contacto --------------- */
-.contacto h1 {
-  font-size: 2rem;
-  padding: 1rem;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-}
-.contacto__datos {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  font-size: 2.5rem;
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .contacto h1 {
-    font-size: 2rem;
-    padding: 2rem 2.25rem;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-  }
-  .contacto__datos {
-    padding-left: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    font-size: 2.5rem;
-    text-align: center;
   }
 }
 

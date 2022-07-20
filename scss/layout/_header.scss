@@ -1,16 +1,18 @@
+@media (min-width: 365px ) and (max-width:799px) {
+
 #navbarNav {
 padding-left: 1rem;
 }
 
 .header {
-    background-color:$color-primario;
+    background-color: $color-primario;
     width: 100%;
     height: 600px;
     
 }
 
 .titulo {
-    color: $color-terciario;
+    color: black;
     font-weight: bolder;
     font-size: 5rem;
     display: flex;
@@ -46,9 +48,9 @@ padding-left: 1rem;
     }
 
 }
+} 
 
-
-@media(min-width:1024px) {
+@media(min-width:800px) {
 
 
     .header {
@@ -97,193 +99,3 @@ padding-left: 1rem;
     }
 }
 
-
-@media (min-width:640px) {
-
-.header
-{
-    background-color: $color-primario; 
-    width: 100%;
-    height: 600px;
-    padding: 1rem;
-   }
-
-.titulo {
-  color: $color-secundario ;
- font-weight: bolder;
- font-size: 4rem;
- display: flex;
- flex-flow: row nowrap;
- justify-content: center;
- align-items: start;
- height: 150px;
- width: 100%;
-   }
-
-   .subtit {
-       font-size: 2rem;
-       display: flex;
-       flex-flow: row nowrap;
-       flex-direction: column;
-       align-items: center;
-   }
-
-   .contacto {
-       font-weight: 600;
-       font-size: 1.25rem;  
-       padding: 1rem;
-       color: $color-secundario;
-       display: flex;
-       justify-content: center;
-
-       span {
-
-        margin: 0.5rem;
-        }
-       
-   }
-
-
-   @media(min-width:1024px) { 
-
-
-    .header 
-    {  background-color: $color-primario;
-        width: 100%;
-        height: 400px;
-        padding: 1rem;
-       }
-    
-    .titulo {
-      color: $color-terciario;
-     font-weight: bolder;
-     font-size: 6.5rem;
-     display: flex;
-     flex-flow: row nowrap;
-     align-items: center;
-     justify-content: flex-start;
-     height: 120px;
-     width: 100%;
-     margin: 0;
-       }
-   
-       .subtit {
-           font-size: 3rem;
-           display: flex;
-           flex-flow: row nowrap;
-           align-items: center;
-           justify-content: flex-start;
-           height: 80px;
-           margin: 0;
-       }
-   
-
-       .contacto {
-        font-weight: 600;
-        font-size: 1.25rem;  
-        padding: 1rem;
-        color: #d6d6d6;
-        display: flex;
-        justify-content: end;
-
-        span {
-            margin: 6px;
-        } }
-    }
-}
-
-
-@media (min-width:1024px) {
-
-    .header {
-        background-color: $color-primario;
-        width: 100%;
-        height: 600px;
-        padding: 1rem;
-    }
-
-    .titulo {
-        color: $color-terciario;
-        font-weight: bolder;
-        font-size: 4rem;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-        align-items: start;
-        height: 150px;
-        width: 100%;
-    }
-
-    .subtit {
-        font-size: 2rem;
-        display: flex;
-        flex-flow: row nowrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contacto {
-        font-weight: 600;
-        font-size: 1.25rem;
-        padding: 1rem;
-        color: $color-secundario;
-        display: flex;
-        justify-content: center;
-
-        span {
-
-            margin: 0.5rem;
-        }
-
-    }
-
-
-    @media(min-width:1024px) {
-
-
-        .header {
-            background-color: $color-secundario;
-            width: 100%;
-            height: 400px;
-            padding: 1rem;
-        }
-
-        .titulo {
-            color: $color-secundario;
-            font-weight: bolder;
-            font-size: 6.5rem;
-            display: flex;
-            flex-flow: row nowrap;
-            align-items: center;
-            justify-content: flex-start;
-            height: 120px;
-            width: 100%;
-            margin: 0;
-        }
-
-        .subtit {
-            font-size: 3rem;
-            display: flex;
-            flex-flow: row nowrap;
-            align-items: center;
-            justify-content: flex-start;
-            height: 80px;
-            margin: 0;
-        }
-
-
-        .contacto {
-            font-weight: 600;
-            font-size: 1.25rem;
-            padding: 1rem;
-            color: $color-secundario;
-            display: flex;
-            justify-content: end;
-
-            span {
-                margin: 6px;
-            }
-        }
-    }
-
-}

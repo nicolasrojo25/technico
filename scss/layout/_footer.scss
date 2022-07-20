@@ -2,7 +2,7 @@
 /* ///////////////////// FOOTER /////////////////////////////
  */
  
- @media (max-width: 365px) {
+ @media (min-width: 365px ) and (max-width:799px) {
   .pie {
     list-style-type: none;
     padding: 2rem;
@@ -46,9 +46,6 @@
 
 
 }
-
-
-
 
 
 

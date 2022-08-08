@@ -1,5 +1,11 @@
 
-   
+ #navbarNav {
+    padding: 1rem; }
+
+ 
+ @media (min-width: 365px ) and (max-width:799px) { 
+
+
 .menu {
     font-weight: 600;
     font-size: 1.5rem; 
@@ -25,11 +31,12 @@
             padding: 1rem;
             }
 
-   }
+   } } } 
 
 
 
-   @media(min-width:1024px) { 
+   @media(min-width:800px) { 
+
 
    .menu {
     font-weight: 600;
@@ -60,5 +67,4 @@
         
    }
 
-}
 }

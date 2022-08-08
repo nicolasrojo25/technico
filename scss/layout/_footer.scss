@@ -1,12 +1,11 @@
-
 /* ///////////////////// FOOTER /////////////////////////////
  */
- 
- @media (min-width: 365px ) and (max-width:799px) {
+
+@media (min-width: 365px) and (max-width:799px) {
   .pie {
     list-style-type: none;
     padding: 2rem;
-    background-color: $color-primario  ;
+    background-color: $color-primario;
 
     &__titulo {
       margin: 0;
@@ -35,36 +34,33 @@
       align-items: center;
       justify-content: space-between;
       font-size: 1.2rem;
-      
-     span { margin-right: 1.5rem;
+
+      span {
+        margin-right: 1.5rem;
 
       }
     }
-
-
   }
-
-
 }
-
 
 
 @media(min-width:800px) {
 
   .pie {
     list-style-type: none;
-    background-color:  $color-primario;
+    background-color: $color-primario;
+    padding: 2rem;
 
     &__titulo {
       font-size: 4rem;
       color: white;
       font-weight: bolder;
-      height: 100px;
+      /* height: 100px; */
       width: 100%;
-      padding: 2rem;
+      padding: 0;
       display: flex;
       justify-content: end;
-  
+
     }
 
     &__sub {
@@ -73,30 +69,31 @@
       text-align: end;
       font-size: 2rem;
       align-items: center;
-      padding: 2rem;
-  
+      padding: 0;
+
     }
 
-
-  &__contacto {
-    display: flex;
-    flex-flow: row wrap;
-    span {
+    &__contacto {
       display: flex;
-      margin: 0;
-      font-size: 1.5rem;
-      align-items: center;
-      justify-content: end;
-      color: white;
-      padding: 1rem;
-    }
+      flex-flow: row wrap;
 
-    i {
-      font-size: 2rem;
-      color: white;
-      padding: 1rem;
+
+      span {
+        display: flex;
+        margin: 0;
+        font-size: 1.2rem;
+        align-items: center;
+        justify-content: end;
+        color: white;
+      }
+
+      i {
+        font-size: 1.2rem;
+        color: white;
+        padding: 0.5rem 1rem;
+
+      }
     }
-  }
 
 
   }

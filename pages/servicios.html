@@ -1,124 +1,148 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Servicios</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css" />
-    <link
-      rel="shortcut icon"
-      href="../media/icono.png"
-      type="image/x-icon"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicios</title>
 
-    <title> Todo tipo de arreglos para tu PC  </title>
-<meta name="description" content="Consulta y chequeos sin cargo. Local físico y atención remota">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="shortcut icon" href="../media/icono.png" type="image/x-icon" />
 
-  </head>
+  <title> Todo tipo de arreglos para tu PC </title>
+  <meta name="description" content="Consulta y chequeos sin cargo. Local físico y atención remota">
 
-  <body>
-    <header class="container-fluid header ">
 
-      <div class="container-fluid contacto">
-        <span> 22135689866 </span> <span> La Plata </span>
-        <span> 8 N1342 E/59 y 60 </span>
+</head>
+
+<body>
+  <header class="container-fluid header ">
+
+    <div class="container-fluid contacto">
+      <span> 22135689866 </span> <span> La Plata </span>
+      <span> 8 N1342 E/59 y 60 </span>
+    </div>
+
+    <p class="titulo">technico</p>
+    <p class="subtit">Todo lo que necesita tu PC</p>
+
+    <nav class="navbar navbar-expand-lg menu p-0" style="background-color: #013dff;">
+      <!--  <div class="container-fluid menu"> -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-0 p-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <!--  </div> -->
+    </nav>
+
+  </header>
+
+  <main>
+    <article class="servicios">
+
+      <h1>Servicios</h1>
+      <div class="servicios_caja">
+
+        <picture class="servicios__img">
+
+          <source media="(min-width:800px)" srcset="../media/armado.svg">
+          <img src="../media/armados.svg" alt="Armado de PC" />
+        </picture>
+
+        <picture class="servicios__img">
+          <source media="(min-width:800px )" srcset="../media/limpieza.svg">
+          <img src="../media/limpiezas.svg" alt="Limpieza de PC" />
+        </picture>
+
+        <picture class="servicios__img">
+          <source media="(min-width:800px )" srcset="../media/formateo.svg">
+          <img src="../media/formateos.svg" alt="Formateo e instalación" />
+
+        </picture>
+
+        <picture class="servicios__img">
+          <source media="(min-width:800px)" srcset="../media/componentes.svg">
+          <img src="../media/componentess.svg" alt="Instalación de componentes" />
+        </picture>
+
+        <picture class="servicios__img">
+
+          <source media="(min-width:800px)" srcset="../media/reballing.svg">
+          <img src="../media/reballings.svg" alt="Reballing de Procesador" />
+
+        </picture>
+
+        <picture class="servicios__img">
+
+          <source media="(min-width:800px)" srcset="../media/ptermica.svg">
+          <img src="../media/ptermicas.svg" alt="Reballing de Procesador" />
+
+        </picture>
+
       </div>
 
-      <p class="titulo">technico</p>
-      <p class="subtit">Todo lo que necesita tu PC</p>
+    </article>
+  </main>
 
-      <nav class="navbar navbar-expand-lg menu p-0" style="background-color: #013dff;">
-        <!--  <div class="container-fluid menu"> -->
-         
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-           </button>
-           <div class="collapse navbar-collapse" id="navbarNav">
-             <ul class="navbar-nav m-0 p-0">
-               <li class="nav-item">
-                 <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link active" href="./servicios.html">Servicios</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="./galeria.html">Galería</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="./nosotros.html">Nosotros</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="./contacto.html">Contacto</a>
-               </li>
-             </ul>
-           </div>
-        <!--  </div> -->
-       </nav>
+  <footer class="container-fluid pie">
+    <p class="pie__titulo">technico</p>
 
-    </header>
+    <p class="pie__sub">Todo lo que necesita tu PC</p>
 
-    <main>
-      <article class="servicios">
+    <div class="pie__contacto">
+      <span>Instagram @tech_nico </span>
 
-        <h1 >Servicios</h1>
-      
-        <div class="servicios__caja">
+      <i class="bi-instagram"></i>
+    </div>
 
-        <img src="../media/armado.jpg" alt="Armado de PC" />
-        <img src="../media/limpieza.jpg" alt="Limpieza de PC" />
-        <img src="../media/ptermica.jpg" alt="Cambio de Pasta" />
-        <img src="../media/formateo.jpg" alt="Formateo e instalación" />
-        <img
-          src="../media/componentes.jpg"
-          alt="Instalación de componentes"
-        />
-        <img src="../media/reballing.jpg" alt="Reballing de Procesador" />
+    <div class="pie__contacto">
+      <span>Facebook TechNico </span>
 
-       </div>
-      
-      </article>
-    </main>
+      <i class="bi-facebook"></i>
+    </div>
 
-    <footer class="container-fluid pie">
-      <p class="pie__titulo">technico</p>
+    <div class="pie__contacto">
+      <span>Whatsapp +54 221 356-8966 </span>
 
-      <p class="pie__sub">Todo lo que necesita tu PC</p>
+      <i class="bi-whatsapp"></i>
+    </div>
 
-      <div class="pie__contacto">
-        <span>Instagram @tech_nico </span>
+    <div class="pie__contacto">
+      <span>Ubicación 8 N1342 E/ 59 y 60 </span>
 
-        <i class="bi-instagram"></i>
-      </div>
+      <i class="bi-pin-map"></i>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+</body>
 
-      <div class="pie__contacto">
-        <span>Facebook TechNico </span>
-
-        <i class="bi-facebook"></i>
-      </div>
-
-      <div class="pie__contacto">
-        <span>Whatsapp +54 221 356-8966 </span>
-
-        <i class="bi-whatsapp"></i>
-      </div>
-
-      <div class="pie__contacto">
-        <span>Ubicación 8 N1342 E/ 59 y 60 </span>
-
-        <i class="bi-pin-map"></i>
-      </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
 </html>

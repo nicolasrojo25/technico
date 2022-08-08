@@ -1,155 +1,131 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacto</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600;900&display=swap"
-      rel="stylesheet" />
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css" />
-    <link
-      rel="shortcut icon"
-      href="../media/icono.png"
-      type="image/x-icon"
-    />
-    <title> Comunicate con nosotros </title>
-    <meta name="description" content="Arregla tu PC. Contactactanos por facebook, whatsapp o instagram">
-    
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
 
-  <body>
-    <header class="container-fluid header">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="shortcut icon" href="../media/icono.png" type="image/x-icon" />
+  <title> Comunicate con nosotros </title>
+  <meta name="description" content="Arregla tu PC. Contactactanos por facebook, whatsapp o instagram">
 
-      <div class="container-fluid contacto">
-        <span> 22135689866 </span> <span> La Plata </span>
-        <span> 8 N1342 E/59 y 60 </span>
+</head>
+
+<body>
+  <header class="container-fluid header">
+
+    <div class="container-fluid contacto">
+      <span> 22135689866 </span> <span> La Plata </span>
+      <span> 8 N1342 E/59 y 60 </span>
+    </div>
+
+    <p class="titulo">technico</p>
+    <p class="subtit">Todo lo que necesita tu PC</p>
+
+    <nav class="navbar navbar-expand-lg menu p-0" style="background-color: #013dff;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-0 p-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <article class="comunicate">
+
+      <h1>Comunicate con nosotros</h1>}
+
+      <picture class="comunicate__img">
+
+        <span> Encontranos en Plaza Rocha </span>
+        <source media="(min-width:800px )" srcset="../media/mapa.svg">
+        <img src="../media/mapas.svg" alt="mapa con ubicacion">
+      </picture>
+
+
+      <textarea name="textMensaje" placeholder="Escribe tu mensaje aquí" class="comunicate__text" cols="60"
+        rows="10"></textarea>
+
+      <div class="comunicate__info">
+
+        <input type="text" name="txtContacto" placeholder="Nombre" id="contacto" />
+
+        <input type="email" name="txtMail" placeholder="tumail@ejemplo.com" autocomplete="on" id="correo" />
+
+        <input type="tel" name="txtTel" placeholder="2213569077" id="tel" />
+
+        <input type="submit" value="Enviar comentario" />
+
+        <input type="reset" value="Limpiar formulario" />
+
       </div>
 
-      <p class="titulo">technico</p>
-      <p class="subtit">Todo lo que necesita tu PC</p>
+    </article>
+  </main>
+  <footer class="container-fluid pie">
+    <p class="pie__titulo">technico</p>
 
-      <nav class="navbar navbar-expand-lg menu p-0" style="background-color: #013dff;">
-        <!--  <div class="container-fluid menu"> -->
-         
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-           </button>
-           <div class="collapse navbar-collapse" id="navbarNav">
-             <ul class="navbar-nav m-0 p-0">
-               <li class="nav-item">
-                 <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="./servicios.html">Servicios</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="./galeria.html">Galería</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="./nosotros.html">Nosotros</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link active" href="./contacto.html">Contacto</a>
-               </li>
-             </ul>
-           </div>
-        <!--  </div> -->
-       </nav>
+    <p class="pie__sub">Todo lo que necesita tu PC</p>
 
-    </header>
+    <div class="pie__contacto">
+      <span>Instagram @tech_nico </span>
 
-    <main>
+      <i class="bi-instagram"></i>
+    </div>
 
-      <article class="container-fluid comunicate">
+    <div class="pie__contacto">
+      <span>Facebook TechNico </span>
 
-        <h1>Comunicate con nosotros</h1> 
+      <i class="bi-facebook"></i>
+    </div>
 
+    <div class="pie__contacto">
+      <span>Whatsapp +54 221 356-8966 </span>
 
-        <form action="Dejanos tu mensaje">
-         
-         <div class="comunicate__msj"> 
+      <i class="bi-whatsapp"></i>
+    </div>
 
+    <div class="pie__contacto">
+      <span>Ubicación 8 N1342 E/ 59 y 60 </span>
 
-          <textarea
-            name="textMensaje"
-            placeholder="Tu mensaje"
-            id="comunicacion"
-            cols="45"
-            rows="5"
-          >
-        
-        </textarea>
+      <i class="bi-pin-map"></i>
+    </div>
+  </footer>
 
-      </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
 
-        <div class="comunicate__datos">  
+</body>
 
-          <input
-            type="text"
-            name="txtContacto"
-            placeholder="Nombre"
-            id="contacto"
-          />
-
-          <input
-            type="email"
-            name="txtMail"
-            placeholder="tumail@ejemplo.com"
-            id="correo"
-          />
-
-          <input type="tel" name="txtTel" placeholder="2213568966" id="tel" />
-
-          <input type="submit" value="Enviar comentario" />
-
-          <input type="reset" value="Limpiar formulario" />
-
-        </div>
-
-        
-        </form>
-
-      </div>
-      </article>
-    </main>
-    <footer class="container-fluid pie">
-      <p class="pie__titulo">technico</p>
-
-      <p class="pie__sub">Todo lo que necesita tu PC</p>
-
-      <div class="pie__contacto">
-        <span>Instagram @tech_nico </span>
-
-        <i class="bi-instagram"></i>
-      </div>
-
-      <div class="pie__contacto">
-        <span>Facebook TechNico </span>
-
-        <i class="bi-facebook"></i>
-      </div>
-
-      <div class="pie__contacto">
-        <span>Whatsapp +54 221 356-8966 </span>
-
-        <i class="bi-whatsapp"></i>
-      </div>
-
-      <div class="pie__contacto">
-        <span>Ubicación 8 N1342 E/ 59 y 60 </span>
-
-        <i class="bi-pin-map"></i>
-      </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
-  </body>
 </html>

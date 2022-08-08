@@ -10,12 +10,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="shortcut icon" href="../media/icono.png" type="image/x-icon" />
 
   <title> Galería de arreglos </title>
-<meta name="description" content="Nos orgulle mostrar nuestro trabajo. Son cientos los clientes satisfechos">
+  <meta name="description" content="Nos orgulle mostrar nuestro trabajo. Son cientos los clientes satisfechos">
 </head>
 
 <body>
@@ -31,65 +32,75 @@
     <p class="subtit">Todo lo que necesita tu PC</p>
 
     <nav class="navbar navbar-expand-lg menu p-0" style="background-color: #013dff;">
-      <!--  <div class="container-fluid menu"> -->
-       
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNav">
-           <ul class="navbar-nav m-0 p-0">
-             <li class="nav-item">
-               <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="./servicios.html">Servicios</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link active" href="./galeria.html">Galería</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="./nosotros.html">Nosotros</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="./contacto.html">Contacto</a>
-             </li>
-           </ul>
-         </div>
-      <!--  </div> -->
-     </nav>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-0 p-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
   </header>
 
   <section>
     <article class="galeria">
       <h1> Galería </h1>
 
-      <div class="galeria__video">  
+      <div class="galeria__video">
+
         <video width="870" height="640" controls>
           <source src="../media/limpieza3.mp4" type="video/mp4" />
         </video>
-      
-      </div> 
-       
-        <div class="galeria__img1"> <img src="../media/ustedes1.jpg" alt="arreglo1" /> </div>
 
-        <div class="galeria__img2"> <img src="../media/ustedes2.jpg" alt="arreglo2" /> </div>
+      </div>
 
-        <div class="galeria__img3">
-          <img src="../media/ustedes3.jpg" alt="arreglo3" />
-        </div>
+      <picture class="galeria__img1">
+        <source media="(min-width:800px)" srcset="../media/ustedes1.svg">
+        <img src="../media/ustedes1s.svg" alt="arreglo1" />
+      </picture>
 
-        <div class="galeria__img4">
-          <img src="../media/ustedes4.jpg" alt="arreglo4" />
-        </div>
+      <picture class="galeria__img2">
+        <source media="(min-width:800px)" srcset="../media/ustedes2.svg">
+        <img src="../media/ustedes2s.svg" alt="arreglo2" />
+      </picture>
 
-        <div class="galeria__img5">
-          <img src="../media/ustedes5.jpg" alt="arreglo5" />
-        </div>
+      <picture class="galeria__img3">
+        <source media="(min-width:800px)" srcset="../media/ustedes3.svg">
+        <img src="../media/ustedes3s.svg" alt="arreglo3" />
+      </picture>
 
+      <picture class="galeria__img4">
+        <source media="(min-width:800px)" srcset="../media/ustedes4.svg">
+        <img src="../media/ustedes4s.svg" alt="arreglo4" />
+      </picture>
 
+      <picture class="galeria__img5">
+        <source media="(min-width:800px )" srcset="../media/ustedes5.svg">
+        <img src="../media/ustedes5s.svg" alt="arreglo5" />
+      </picture>
 
     </article>
   </section>
+
+  
   <footer class="container-fluid pie m-0 ">
     <p class="pie__titulo">technico</p>
 
@@ -119,7 +130,9 @@
       <i class="bi-pin-map"></i>
     </div>
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

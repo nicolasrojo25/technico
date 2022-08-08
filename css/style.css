@@ -53,11 +53,6 @@
   }
 }
 @media (min-width: 340px) and (max-width: 799px) {
-  #navbarNav {
-    padding-left: 1rem;
-    display: flex;
-    justify-content: center;
-  }
   .header {
     background-color: #013dff;
     width: 100%;
@@ -261,6 +256,7 @@
   .comunicate__img img {
     max-width: 100%;
     padding: 1rem;
+    object-fit: cover;
   }
   .comunicate__text {
     grid-area: texto;
